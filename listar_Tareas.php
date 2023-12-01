@@ -74,7 +74,7 @@
       </tbody>
     </table>
 
-    <a class="btn btn-primary" href="insertar_tarea.php" role="button">Regresar</a>
+    <a class="btn btn-primary" href="index.php" role="button">Regresar</a>
 
 
   </div>

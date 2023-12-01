@@ -42,9 +42,7 @@
 
                 <button type="submit" name="editar" class="btn btn-success mt-3 mb-3">Editar </button>
 
-                <a href="./lista_Tareas.php">
-                    <button type="submit" class="btn btn-primary mt-3 mb-3">Regresar</button> 
-                </a>
+                <a class="btn btn-primary" href="index.php" role="button">Regresar</a>
 
                 <?php
                     if(isset($_POST["editar"])) {
@@ -61,7 +59,7 @@
                             if ($query) {
                                 header("Location:listar_Tareas.php");
                                 ?>
-                                
+
                                 <?php
                             }
 
